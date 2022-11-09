@@ -43,7 +43,7 @@ func main() {
 		fmt.Println("You have to try harder")
 
 	}
-
+	fmt.Println("---------------------------")
 	const class = 9
 	switch {
 	case class == 1:
@@ -54,7 +54,21 @@ func main() {
 		fmt.Println("Excellet")
 	default:
 		fmt.Println("You have to try harder")
+	}
+	fmt.Println("---------------------------")
 
+	const count = 10
+	for i := 0; i < count; i++ {
+		fmt.Println("angka ke", i)
+	}
+	fmt.Println("---------------------------")
+
+	const counts = 10
+	for i := 1; i < counts; i++ {
+		for j := i; j < counts; j++ {
+			fmt.Print(j, " ")
+		}
+		fmt.Println()
 	}
 
 } //main
